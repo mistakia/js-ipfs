@@ -76,8 +76,9 @@ exports.refs = require('./refs')
 exports.refs.local = require('./refs/local')
 exports.repo = {
   gc: require('./repo/gc'),
+  has: require('./repo/has'),
   stat: require('./repo/stat'),
-  version: require('./repo/version')
+  version: require('./repo/version'),
 }
 exports.resolve = require('./resolve')
 exports.start = require('./start')

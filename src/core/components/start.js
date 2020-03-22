@@ -234,6 +234,7 @@ function createApi ({
     refs,
     repo: {
       gc: Components.repo.gc({ gcLock, pin, pinManager, refs, repo }),
+      has: Components.repo.has({ repo }),
       stat: Components.repo.stat({ repo }),
       version: Components.repo.version({ repo })
     },
